@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'webfont01';
-  src: url('../font/Neo\ Sans\ Pro\ Light.eot') format('embedded-opentype'), url(../font/Neo\ Sans\ Pro\ Light.ttf) format('truetype');
+  src: url('../src/font/Neo\ Sans\ Pro\ Light.eot') format('embedded-opentype'), url(../src/font/Neo\ Sans\ Pro\ Light.ttf) format('truetype');
 }
 
 /* 작업 */
@@ -68,7 +68,7 @@ div>article>h3 {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgba(20, 150, 190, 0.7);
+  background-color: rgba(124, 205, 229, 0.7);
 }
 
 #headerWrap>header {
@@ -107,7 +107,7 @@ nav>ul>li>a {
 /* box01 */
 #wrap>#box01 {
   height: 100vh;
-  background: url('../images/header_back2.jpg') no-repeat center top;
+  background: url('../src/images/header_back2.jpg') no-repeat center top;
   padding: 0;
 }
 
@@ -147,15 +147,15 @@ nav>ul>li>a {
   height: 220px;
   border-radius: 50%;
   margin: 0 auto 17px;
-  background: rgba(255, 255, 255, 0.7) url('../images/header_icon_01.png') no-repeat center;
+  background: rgba(255, 255, 255, 0.7) url('../src/images/header_icon_01.png') no-repeat center;
 }
 
 #box01 li:nth-child(2)>span {
-  background-image: url('../images/header_icon_02.png');
+  background-image: url('../src/images/header_icon_02.png');
 }
 
 #box01 li:nth-child(3)>span {
-  background-image: url('../images/header_icon_03.png');
+  background-image: url('../src/images/header_icon_03.png');
 }
 
 #box01 li>dl {
@@ -271,7 +271,7 @@ nav>ul>li>a {
   display: block;
   width: 100%;
   height: 30px;
-  background: #000 url('../images/bar.gif') no-repeat left top;
+  background: #000 url('../src/images/bar.gif') no-repeat left top;
   text-indent: -9999px;
 }
 
@@ -396,19 +396,19 @@ nav>ul>li>a {
   padding-left: 45px;
   font: 24px/50px Arial, sans-serif;
   color: #fff;
-  background: url('../images/contact_icon_01.png') no-repeat left center;
+  background: url('../src/images/contact_icon_01.png') no-repeat left center;
 }
 
 #box04 form ul>li:nth-child(2)>label {
-  background-image: url('../images/contact_icon_02.png');
+  background-image: url('../src/images/contact_icon_02.png');
 }
 
 #box04 form ul>li:nth-child(3)>label {
-  background-image: url('../images/contact_icon_03.png');
+  background-image: url('../src/images/contact_icon_03.png');
 }
 
 #box04 form ul>li:nth-child(4)>label {
-  background-image: url('../images/contact_icon_04.png');
+  background-image: url('../src/images/contact_icon_04.png');
 }
 
 #box04 form ul>li>input {
